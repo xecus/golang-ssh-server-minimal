@@ -1,0 +1,15 @@
+hash: 376a3c22abc2d08a00e907cb226c02c926b82ef55ffba206262a1a15755d5620
+updated: 2017-01-13T18:31:26.69535273Z
+imports:
+- name: github.com/anmitsu/go-shlex
+  version: 648efa622239a2f6ff949fed78ee37b48d499ba4
+- name: github.com/gliderlabs/ssh
+  version: 7bc24bc5e00d84c4d1fd5058b0fafdd9f6f682e1
+- name: golang.org/x/crypto
+  version: 7c6cc321c680f03b9ef0764448e780704f486b51
+  subpackages:
+  - curve25519
+  - ed25519
+  - ed25519/internal/edwards25519
+  - ssh
+testImports: []
